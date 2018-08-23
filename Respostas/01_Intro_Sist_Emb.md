@@ -8,11 +8,11 @@
 
 ## 3) Apresente aplicações de sistemas embarcados: (a) para a indústria automotiva; (b) para eletrodomésticos; (c) para automação industrial.
 
-  (a) Controle dos limpadores de parabrisa, vidros elétricos, marchas automáticas, temperatura do motor. \
+  (a) Controle dos limpadores de parabrisa, vidros elétricos, marchas automáticas, temperatura do motor. 
   
-  (b) Maquinas de café, Controle de temperatura da geladeira, Controle de Potência do microondas por tipo de alimento, Smart Tv. \
+  (b) Maquinas de café, Controle de temperatura da geladeira, Controle de Potência do microondas por tipo de alimento, Smart Tv. 
   
-  (c) Interface Homem-Máquina, acionamentos elétricos, instrumentos inteligentes e robôs de produção.  \
+  (c) Interface Homem-Máquina, acionamentos elétricos, instrumentos inteligentes e robôs de produção.  
  
 ## 4) Cite arquiteturas possíveis e as diferenças entre elas.
 
