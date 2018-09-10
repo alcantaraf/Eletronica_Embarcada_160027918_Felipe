@@ -37,12 +37,12 @@ A arquitetura Von Neumann, também conhecida como Princeton, é uma arquitetura 
 
 ## 5. Considere a variável inteira `i`, armazenando o valor `0x8051ABCD`. Se `i` é armazenada na memória a partir do endereço `0x0200`, como ficam este byte e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian.
 
-####(a) 
+#### (a): 
 *    CD-> 0X0200   
 *    AB-> 0X0200 +1 
 *    51-> 0X0200 +2 
 *    80-> 0X0200 +3 
-####(b) 
+#### (b): 
 *    80-> 0X0200 
 *    51-> 0X0200 +1 
 *    AB-> 0X0200 +2 
@@ -50,4 +50,5 @@ A arquitetura Von Neumann, também conhecida como Princeton, é uma arquitetura 
     
 ## 6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
 
+Ele guarda na memoria  RAM as variaveis de 32bits, necessitando de 2 ciclos para cada. Depois acessa as variáveis da memória somando o LSB de cada, guradandando o resultado também na memória e finaliza somando o MSB das duas variáveis.
 
