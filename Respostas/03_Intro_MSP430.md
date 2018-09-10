@@ -11,19 +11,27 @@
 ```
   
 ### (c) Somente zerar o terceiro bit menos significativo de `a`.
+```C
+  a &= ~0x04; //Também pode-se usar o valor definido no header a &= ~BIT2
+  
+```
   
 ### (d) Somente zerar o terceiro e o quarto bits menos significativo de `a`.
+```C
+  a &= ~(BIT2+BIT3); //BIT2 = 0x04 e BIT3=0x08
+
+```
   
 ### (e) Somente inverter o bit mais significativo de `a`.
   
 ### (f) Inverter o nibble mais significativo de `a`, e setar o nibble menos significativo de `a`. 
 
-2. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar os dois LEDs ininterruptamente.
+## 2. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar os dois LEDs ininterruptamente.
 
-3. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar duas vezes os dois LEDs sempre que o usuário pressionar o botão.
+## 3. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar duas vezes os dois LEDs sempre que o usuário pressionar o botão.
 
-4. Considerando a placa Launchpad do MSP430, faça uma função em C que pisca os dois LEDs uma vez.
+## 4. Considerando a placa Launchpad do MSP430, faça uma função em C que pisca os dois LEDs uma vez.
 
-5. Reescreva o código da questão 2 usando a função da questão 4.
+## 5. Reescreva o código da questão 2 usando a função da questão 4.
 
-6. Reescreva o código da questão 3 usando a função da questão 4.
+## 6. Reescreva o código da questão 3 usando a função da questão 4.
