@@ -1,11 +1,11 @@
 ## 1. Dada uma variável `a` do tipo `char` (um byte), escreva os trechos de código em C para:
 ### (a) Somente setar o bit menos significativo de `a`.
 ```C
-  a |= 0x01; %Também pode-se usar o valor definido no header BIT0 = 0x01
+  a |= 0x01; //Também pode-se usar o valor definido no header BIT0 = 0x01
 ```
 ### (b) Somente setar dois bits de `a`: o menos significativo e o segundo menos significativo.
 ```C
-  a |= 0x03; %Também pode-se usar o valor definido no header, neste caso seria a soma dos valores (BIT0+BIT1)=0x03
+  a |= 0x03; //Também pode-se usar o valor definido no header, neste caso seria a soma dos valores (BIT0+BIT1)=0x03
   
 ```
   
