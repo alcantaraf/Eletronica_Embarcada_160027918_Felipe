@@ -5,7 +5,8 @@
 ```
 ### (b) Somente setar dois bits de `a`: o menos significativo e o segundo menos significativo.
 ```C
-  a |= 0x03; //Também pode-se usar o valor definido no header, neste caso seria a soma dos valores (BIT0+BIT1)=0x03
+  a |= 0x03; //Também pode-se usar o valor definido no header, 
+             //neste caso seria a soma dos valores (BIT0+BIT1)=0x03
   
 ```
   
