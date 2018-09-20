@@ -9,7 +9,7 @@ O protótipo da função é:
 ```C
 unsigned int Raiz_Quadrada(unsigned int S);
 ```
-# Resposta
+##### Resposta
 ## (b) Escreva a sub-rotina equivalente na linguagem Assembly do MSP430. A variável `S` é fornecida pelo registrador R15, e a raiz quadrada de `S` (ou seja, a variável `x`) é fornecida pelo registrador R15 também.
 
 
