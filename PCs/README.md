@@ -1,4 +1,6 @@
 
-#### Pontos de controle do Trabalho Final
+## Pontos de controle do Trabalho Final
 
-## Projeto Assistencia senso-motora para deficientes visuais
+#### Projeto: Assistencia senso-motora para deficientes visuais
+
+##### Alunos: Aline e Felipe
