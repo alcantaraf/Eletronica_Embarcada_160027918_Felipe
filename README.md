@@ -1,2 +1,4 @@
-# Eletronica_Embarcada_160027918_Felipe
-Eletrônica Embarcada
+# Eletrônica Embarcada
+#### Nome: Felipe Lima Alcântara
+#### Matricula: 16/0027918
+Repositório da Diciplina Eletônica Embarcada, realizada no período *2/2018*.
