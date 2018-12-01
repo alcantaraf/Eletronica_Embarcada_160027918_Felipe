@@ -46,8 +46,8 @@ add R15,4(R9)
 ```Assembly
 mov.w R4, R15
 multiplica3x:
-  add.w R4, R4 (f+f)
-  add.w R15, R4 (f+f+f)
+  add.w R4, R4 ;(f+f)
+  add.w R15, R4 ;(f+f+f)
 mov.w R4, 8(R9)
 multiplica5x:
   add.w R6, R6 ;(h+h)
