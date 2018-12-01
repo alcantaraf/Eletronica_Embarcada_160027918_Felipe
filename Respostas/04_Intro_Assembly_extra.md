@@ -11,16 +11,24 @@ Utilize os registradores R11, R12, R13, R14 e R15 para armazenar valores temporÃ
 
 ##### (a) `f *= 5;`
 ```Assembly
+add.w R4, R4
+add.w R4, R4
+add.w R4, R4
+add.w R4, R4
 ```
 ##### (b) `g *= 6;`
 ```Assembly
+
 ```
 ##### (d) `A[2] = 6*A[1] + 5*A[0];`
 ```Assembly
+
 ```
 ##### (e) `A[3] = 3*f - 5*h;`
 ```Assembly
+
 ```
 ##### (f) `A[5] = 6*(f - 2*h);`
 ```Assembly
+
 ```
