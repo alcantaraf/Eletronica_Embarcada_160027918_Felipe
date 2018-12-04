@@ -8,30 +8,63 @@ Para as questões 2 a 5, considere que as variáveis `f`, `g`, `h`, `i` e `j` s�
 Utilize os registradores R11, R12, R13, R14 e R15 para armazenar valores temporários.
 
 #### 1. Escreva os trechos de código assembly do MSP430 para:
-	##### (a) Somente setar o bit menos significativo de R5.
-	##### (b) Somente setar dois bits de R6: o menos significativo e o segundo menos significativo.
-	##### (c) Somente zerar o terceiro bit menos significativo de R7.
-	##### (d) Somente zerar o terceiro e o quarto bits menos significativo de R8.
-	##### (e) Somente inverter o bit mais significativo de R9.
-	##### (f) Inverter o nibble mais significativo de R10, e setar o nibble menos significativo de R10. 
+##### (a) Somente setar o bit menos significativo de R5.
+```Assembly
+bis.w BIT0, R5
+```
+##### (b) Somente setar dois bits de R6: o menos significativo e o segundo menos significativo.
+```Assembly
+bis.w BIT0, R6
+bis.w BIT1, R6
+```
+##### (c) Somente zerar o terceiro bit menos significativo de R7.
+```Assembly
+bic.w BIT2, R7
+```
+##### (d) Somente zerar o terceiro e o quarto bits menos significativo de R8.
+```Assembly
+bic.w BIT4, R8
+bic.w BIT5, R8
+```
+##### (e) Somente inverter o bit mais significativo de R9.
+```Assembly
+xor.w BIT15, R9
+```
+##### (f) Inverter o nibble mais significativo de R10, e setar o nibble menos significativo de R10. 
+```Assembly
 
+```
 #### 2. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
 if(i>j) f = g+h+10;
 else f = g-h-10;
 ```
+###### Resposta
+```Assembly
 
+```
 #### 3. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
 while(save[i]!=k) i++;
 ```
+###### Resposta
+```Assembly
 
+```
 #### 4. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
 for(i=0; i<100; i++) A[i] = i*2;
 ```
+###### Resposta
+```Assembly
 
+```
 #### 5. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
 for(i=99; i>=0; i--) A[i] = i*2;
+```
+
+###### Resposta
+```Assembly
+
 ```
