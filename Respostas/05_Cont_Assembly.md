@@ -32,7 +32,8 @@ xor.w BIT15, R9
 ```
 ##### (f) Inverter o nibble mais significativo de R10, e setar o nibble menos significativo de R10. 
 ```Assembly
-
+xor.w #F000, R10
+bis.w #000F, R10
 ```
 #### 2. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
@@ -41,7 +42,17 @@ else f = g-h-10;
 ```
 ###### Resposta
 ```Assembly
+cmp R8, R7 ;R7 = i, R8 = j
+jl ELSE	;if(j<i) else 
+add.w R5,R4  ;R4 = f, R5 = g
+add.w R6,R4 ;R6 = h
+add.w #000A,R5
+jmp EXIT
 
+ELSE:
+sub.w R5, R4
+sub.w
+sub.w #000A,R5
 ```
 #### 3. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 ```C
